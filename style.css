@@ -4,6 +4,7 @@
     box-sizing: 0;
 }
 
+/* alinhando os cards com espaçamento na horizontal */
 .funcionarios {
     display: flex;
     flex-wrap: wrap;
@@ -21,11 +22,13 @@
     margin-bottom: 10px;
 }
 
+/* nome dos funcionarios */
 .card-funcionario h3 {
     margin: 0;
     color: black;
 }
 
+/* nome cargo */
 .card-funcionario p {
     margin: 5px 0 0;
     font-size: 0.9rem;
