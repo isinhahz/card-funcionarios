@@ -4,6 +4,14 @@
     box-sizing: 0;
 }
 
+/* alinhando a div no meio da tela */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 /* alinhando os cards com espaçamento na horizontal */
 .funcionarios {
     display: flex;
@@ -15,7 +23,7 @@
 .imagem-funcionario {
    /* redimensionando imagem  */
     width: 120px;
-    height: 120px;
+    height: 160px;
     /* responsável por arredondar a imagem do funcionário */
     border-radius: 50%;
     object-fit: cover;
